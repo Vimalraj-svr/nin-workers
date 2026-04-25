@@ -1,0 +1,12 @@
+name = "ninaivugal-audio"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+# Optional: restrict to your backend's IP/domain via a route
+# [[routes]]
+# pattern = "audio.yourdomain.com/*"
+# zone_name = "yourdomain.com"
